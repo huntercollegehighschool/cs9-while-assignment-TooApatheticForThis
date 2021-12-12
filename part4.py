@@ -12,3 +12,12 @@ Enter a number or enter 0 to stop: 0
 Product: 60
 
 '''
+
+initialnumber = int(input("Entre un numero: "))
+multiplicavtive = 1
+
+while initialnumber != 0:
+  multiplicavtive = initialnumber * multiplicavtive
+  initialnumber = int(input("Entre un numero: "))
+  
+print(multiplicavtive)
